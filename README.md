@@ -30,6 +30,7 @@ quotes-scraper/
 ```
 
 **main.py:** The main script that performs web scraping and interacts with the database.
+<br>
 **tests/__init__.py:** An empty file that makes the tests directory a package.
 tests/test_main.py: Contains unit tests for the main.py script.
 
@@ -55,6 +56,7 @@ deactivate # to stop it
 ```
 
 Install Dependencies
+<br>
 This project uses a requirements.txt file to manage dependencies. If the requirements.txt file is included in the project (as shown in the file structure), you can install the required packages with:
 ```bash
 pip install -r requirements.txt
@@ -69,7 +71,7 @@ pip freeze > requirements.txt
 <br>
 
 Additionally, create a **.env** file in the root directory and add your PostgreSQL credentials:
-<br> Be careful and DO NOT publish this file. Instead, use a **.gitignore** to ignore it.
+<br> Be careful and DO NOT publish this file. Instead, use a **.gitignore** file to ignore it.
 
 ```env
 USERNAME = your_username
