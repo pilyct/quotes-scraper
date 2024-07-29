@@ -1,0 +1,9 @@
+*.ipynb_checkpoints
+web-scraping-venv
+*.ipynb
+old-main*
+*.csv
+*__pycache__
+*.pytest_cache
+
+.env
