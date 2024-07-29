@@ -57,11 +57,14 @@ deactivate # to stop it
 
 Install Dependencies
 <br>
-This project uses a requirements.txt file to manage dependencies. If the requirements.txt file is included in the project (as shown in the file structure), you can install the required packages with:
+This project uses a **requirements.txt** file to manage dependencies. If the requirements.txt file is included in the project (as shown in the file structure), you can install the required packages with:
+
 ```bash
 pip install -r requirements.txt
 ```
-If the requirements.txt file is missing or you need to create it yourself, you can generate it using the following command (make sure all your dependencies are installed in your environment first):
+
+If the **requirements.txt** file is missing or you need to create it yourself, you can generate it using the following command (make sure all your dependencies are installed in your environment first):
+
 ```bash
 pip freeze > requirements.txt
 ```
@@ -79,7 +82,7 @@ PASSWORD = your_password
 HOST = localhost
 PORT = 5432
 DATABASE =y our_database
-````
+```
 
 ## Running the Scripts
 
