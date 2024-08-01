@@ -81,7 +81,7 @@ USERNAME = your_username
 PASSWORD = your_password
 HOST = localhost
 PORT = 5432
-DATABASE =y our_database
+DATABASE = your_database
 ```
 
 ## Running the Scripts
